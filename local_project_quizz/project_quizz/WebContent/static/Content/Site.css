@@ -1,0 +1,125 @@
+/* html { */
+/*     background-color: #e6e6e6; */
+/*     z-index:1; */
+/* } */
+
+.black-bg {
+    background-color:#000000;
+}
+
+.footer-bg {
+	position: relative;
+    background-color:#ccc;
+    bottom: 0px;
+    z-index:20;
+}
+
+.white-letters-footer {
+    color:#fff;
+    font-size: 1.3em;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.icon {
+    vertical-align:middle;
+}
+
+.quizz-header {
+    background-color:#fff;
+}
+
+.logo {
+    max-width:40px;
+}
+
+.navbar {
+    background-color:#ccc !important;
+}
+
+.logo-title {
+    font-size:1.2em;
+    padding:10px;
+}
+
+.logo-home {
+    margin-top:10px;
+}
+.nav>li>a {
+    font-size:1.2em;
+    color:#000 !important;
+}
+
+.nav>li>a:hover {
+    color: #000 !important;
+    text-decoration:underline !important;
+}
+
+.container-menu { 
+	position: relative;
+	display: inline-block;
+    background-color:#ccc;
+    text-align: center;
+    margin: 10px;
+    padding: 6px;
+}
+
+body { 
+	background-image:url(images/fondo.jpg);
+  	background-size: 100%;
+  	z-index:10;
+}
+
+.body-content {	
+	margin-top:80px;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo-home {
+       padding-top:5px;
+    }
+
+    .navbar-header {
+        padding:10px;
+    }
+
+    .body-content {
+        margin-top: 80px;
+    }
+ 
+.ir1 {
+/* 	position: relative; */
+/* 	display: inline-block; */
+/* 	width: 20%; */
+    background-image:url(images/bloque1.jpg);
+/*     border-color: #2e6da4; */
+/*     z-index:40; */
+}
+
+.ir2 {
+/* 	position: relative; */
+/* 	display: inline-block; */
+/* 	width: 20%; */
+    background-image:url(images/bloque2.jpg);
+/*     border-color: #2e6da4; */
+/*     z-index:40 */
+}
+
+.ir3 {
+/* 	position: relative; */
+/* 	display: inline-block; */
+/* 	width: 20%; */
+    background-image:url(images/bloque3.jpg);
+/*     border-color: #2e6da4; */
+/*     z-index:40 */
+}
+
+
+
+
+
+
+}
